@@ -1,0 +1,69 @@
+@charset "UFT-8";
+body{
+    background-color: white;
+    color: black;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+h2{
+    color: red;
+    font-size: 15pt;
+    font-family: ';
+}
+
+.corpo-texto {
+    background-color: aqua;
+    color: white;
+    text-align: justify;
+    font-size: 14pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.texto {
+    font-size: 14pt;
+    text-align: justify;
+    color: blueviolet;
+}
+.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: blueviolet;
+    text-align: center;
+    font-style: inherit;
+    
+}
+header{
+    background-color: brown;
+    padding:2em ;
+}
+
+footer{
+    margin: 1em;
+    background-color: blue;
+    padding: 6px;
+
+}
+
+.botao{
+    background-color: blanchedalmond;
+    padding: 12px;
+    border-bottom: 50%;
+}
+.botao:link{
+ text-decoration: none;
+ color: black;
+}
+
+.botao:hover{
+    text-decoration: dashed;
+    color: blueviolet;
+    font-size: 1.2em;
+}
+.botao:visited{
+    text-decoration: none;
+    color: yellow;
+}

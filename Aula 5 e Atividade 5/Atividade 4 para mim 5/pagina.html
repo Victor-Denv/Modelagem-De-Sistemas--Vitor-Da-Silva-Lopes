@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset >
+        <legend>Formulario De Evento De Progamação</legend>
+        <table>
+
+            <form action="mailto:vitor.s.lopes@ba.estudante.senai.br" method="get">
+                <tr>
+                    <td>Nome:</td>
+                    <td><input type="text" name="nome" required></td>
+                </tr>
+                <tr>
+                    <td>Sobrenome:</td>
+                    <td><input type="text" name="sobrenome" required></td>
+                </tr>
+                <tr>
+                    <td>Idade:</td>
+                    <td><input type="number" name="idade" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+
+                <tr>
+                    <td>Data de Nascimento:</td>
+                    <td><input type="date" name="nascimento" required></td>
+                </tr>
+                <tr>
+                    <td>Cor Favorita:</td>
+                    <td><input type="color" name="cor" required></td>
+                </tr>
+                <tr>
+                    <td>Sexo:</td>
+                    <td>
+                        <input type="radio" name="sexo" value="masculino" required> Masculino
+                        <input type="radio" name="sexo" value="feminino"> Feminino
+                        <input type="radio" name="sexo" value="outro"> Outro
+                    </td>
+                </tr>
+                <tr>
+                    <td>Linguagem Favorita:</td>
+                    <td>
+                        <input type="checkbox" name="Linguagem" value="Java"> Java
+                        <input type="checkbox" name="Linguagem" value="c#"> C#
+                        <input type="checkbox" name="Linguagem" value="Python"> Python
+                        <input type="checkbox" name="Linguagem" value="Outro"> Outro
+                    </td>
+                </tr>
+                <tr>
+                    <td>Quanto Tempo De Programação:</td>
+                    <td>
+                        <select name="Tempo" required>
+                            <option value="">Selecione</option>
+                            <option value="1 Ano Ou Menos">1 Ano Ou Menos</option>
+                            <option value="2 Anos">2 Anos</option>
+                            <option value="3 Anos">3 Anos</option>
+                            <option value="4 Anos Ou Mas">4 Anos Ou Mas</option>
+
+                <tr>
+                    <td>Deixe Teu Comentario</td>
+                    <td>
+                        <textarea name="comentario" rows="4" cols="30" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                    </td>
+                    <td>
+                        <input type="reset" value="Limpar">
+                    </td>
+                </tr>
+        </table>
+    </fieldset>
+</body>
+
+</html>

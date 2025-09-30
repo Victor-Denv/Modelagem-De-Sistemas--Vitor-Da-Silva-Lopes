@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #003366; 
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 2.5em; 
+    margin: 0;
+}
+
+h2, h3 {
+    font-size: 1.8em; 
+    color: #003366;
+}
+
+p, li, td, th, label {
+    font-size: 1em; 
+    line-height: 1.6;
+}
+
+
+.imgproduct{
+    text-align: center;
+}
+.imagem-produto {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    
+}
+
+
+.tabela-planos {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tabela-planos thead tr {
+    background-color: #005f9e; 
+    color: #ffffff;
+    text-align: left;
+}
+
+.tabela-planos th,
+.tabela-planos td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+.tabela-planos tbody tr:nth-of-type(even) {
+    background-color: #e8f4f8;
+}
+
+.tabela-planos ul {
+    padding-left: 20px;
+}
+
+
+.botao {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 0 10px;
+    background-color: #007BFF; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.botao:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px);
+}
+
+
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+form .botao {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333333; 
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+
+.conteudo ul {
+    padding-left: 20px;
+}

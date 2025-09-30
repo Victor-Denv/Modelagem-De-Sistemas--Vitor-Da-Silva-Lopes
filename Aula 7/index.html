@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+  ///var senhacorreta = "flamengo";
+  //var senha = prompt("Digite Sua Senha :");
+
+  // O problema está nesta linha:
+ /// var statussenha = (senha === senhacorreta)
+   /// ? alert("Sua Senha Esta Correta!")
+    ///: window.location.href = 'paginadeerro.html';
+</script>
+
+    <script>
+        document.write("<h1> ola mundo !!!! </h1>");
+        document.write("<p> Usar uma ATG do HTML</p>");
+    </script>
+
+<hr>
+<h1>Tipos De DaDos</h1>
+<h2>Numerico</h2>
+<h2>Boorleanos</h2>
+<h2>Strings</h2>
+<h2>Arrays</h2>
+<h2>Nao Definida</h2>
+
+// <script>
+    var n1 = 30
+        n2 = 50
+        n3 = "maria"
+        frutas = ["Maça", "Banana", "Morango"]
+        
+        console.log ("Valor do n1 é " + n1)
+        console.log ("Valor do n2 é" + n2)
+        console.log ("O nome Do n3 é " + n3)
+
+</script>
+
+<script>
+    var a = 3
+    var b = 5 
+    document.write ("<br> a == b " + (a == b))
+    document.write ("<br> b!=10 " + (b!=10))
+    document.write ("<br> a == 5 " + (a == 5))
+    document.write ("<br> a <= b "  + (a <= b))
+    document.write ("<br> b == 5 " + (b == "5"))
+</script>
+
+<h1>Estrutura Condicionais</h1>
+<ul>
+    <li> if</li>
+    <li>IF - Else</li>
+    <li>Operador Ternario</li>
+    <li>Swich</li>
+</ul>
+<script>
+    var n = 3 
+    var nn = 5 
+    
+
+    if (n=>nn) {
+        document.write ("<br>",n," é Maior que ", nn)
+    
+    }else{
+        document.write ("<br>",nn, "é maior que ",n)
+    }
+</script>
+<br>
+<script>
+    var a= 3
+    var b = 4
+
+    if (a > b ){
+        document.write("O" , a , " e Maior que " , b);
+    } else if (b > a ) {
+        document.write ("O " , b , " é Maior que ", a);
+    } else {
+
+        document.write ("Os Dois Numeros São Iguais")
+    }
+
+
+</script>
+
+<script>
+    //var nota1 = Number(prompt("Informe a nota 1 : "))
+    //var nota2 = Number(prompt("Informe a nota 2 : "))
+    ///var media = (nota1+nota2)/2
+
+    //var status = (media >= 5)?document.write ("<br> Aprovado"): document.write ("<br> Reprovado")
+    
+    //if (media >= 5){
+    //    document.write ("<br> APROVADO")
+    //}else {
+     //   document.write("<br> Reprovado")
+    //}
+</script>
+
+
+<h1>   Estrutura De Repetição</h1>
+<ul></ul>
+<li>for</li>
+<li>While</li>
+<li>Do...While</li>
+</ul>
+<h2>For</h2>
+<script>
+    var nomes = [];
+
+   
+  
+</script>
+<script>
+   /// let  notas = []
+  ////while (notas !=-1) {
+   //  //   notas[i] = prompt ("Informe Uma Nota :")
+      //  i++
+  //  }
+</script>
+
+<script>
+    
+     let nome = ""
+     let alt = []
+     let peso = []
+    let idade = []
+    let nomeat =  []
+     i = 0
+     while (true) {
+        nome = prompt ("Informe o Nome Da Pessoa")
+        if(nome == "sair"){
+            break;
+        }
+
+
+     
+        nomeat[i] = nome
+        alt[i] = parseFloat(prompt ("Informe o Altura da Pessoa ",))
+        peso[i] = parseFloat(prompt ("Informe o Peso da Pessoa ",))
+        idade[i] = parseFloat (prompt ("Informe a Idade da Pessoa ",))
+        
+        i++
+    }
+for (let j = 0 ; j <nomeat.length ; j++){
+     document.write(`Pessoa ${j + 1}: Nome: ${nome[j]} ,<br>, Altura: ${alt[j]}, Peso: ${peso[j]}, Idade: ${idade[j]}`);
+
+}
+     
+</script>
+
+</body>
+</html>

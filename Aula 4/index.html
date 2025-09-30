@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 - Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <form  action="paginadesucesso.html" method="get" enctype="text/plain">
+        Nome :<input type="text" name="Nome" size="30" id:"idnome">
+        <br>
+
+        Sobrenome: <input type="text" name="Sobrenome" size="
+        30" id="idSobrenome">
+
+        <br>
+
+        Endereço: <input type="text" name="Endereço" size="30" id="idenc">
+
+        
+    </form>
+
+    <h2>Forms com Table</h2>
+    <table >
+        <tr>
+            
+                <td><label for="nome">Nome</label></td>
+            <td>
+                <input type="text" name="Nome" size="30" id:"idnome" placeholder="Digite seu nome" maxlength="20" required>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Sobrenome">Sobrenome</label></td>
+            <td>
+                <input type="text" name="Sobrenome" size="
+        30" id="idSobrenome" placeholder="Digite seu Sobrenome" maxlength="20" required>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Data De <br> Nascimento</td>
+            <td>
+                <input type="datetime-local" name="datadenasc" size="30" id="iddatanasc" placeholder="Digite sua Data de Nascimento" required>
+
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><label for="Endereço">Endereço</label></td>
+            <td>
+                <input type="text" name="Endereço" size="30" id="idenc" maxlength="50" placeholder="Digite seu Endereço" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="email">email</label></td>
+            <td>
+                <input type="email" name="email" size="30" id="idemail" placeholder="Digite seu email" required>
+
+            </td>
+        </tr>
+        <tr>
+
+        <tr>
+            <td>Login</td>
+            <td>
+                <input type="text" name="Login" size="30" id="idlogin" placeholder="Digite seu Login" required>
+
+            </td>
+        </tr>
+        <tr>
+            <td><label for="idsenha">Senha</label></td>
+            <td>
+
+                <input type="password" name="Senha" size="30" id="idsenha" placeholder="Digite sua Senha" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="anexo">Anexar Documento</label></td>
+            <td><input type="file" name="anexo" id="idanexo"></td>
+        </tr>
+        <tr>
+         <td> <input type="submit" name="Enviar"></td>
+            <td><input type="reset" name="Resetar"></td>
+       </tr>
+    </table>
+
+    <h2>Forms Controle</h2>
+    <table >
+        <tr>
+            <td>quantidade</td>
+            <td><input type="number" name="qtd" id="qtd" size="30"></td>
+        </tr>
+        <tr>
+            <td>Telefone</td>
+            <td><input type="tel" name="telefone" id="idtelefone" placeholder="(71) xxxx-xxxx" required pattern=""></td>
+        </tr>
+        <tr>
+            <td>Deixa Teu Comentario</td>
+            <td>
+                <textarea name="comentario" id="idcomentario" cols="20" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Escolha um Numero</td>
+            <td>
+                <select name="numero" id="idnumber">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+                    <td>Marque as opções de interesse</td>
+                    <td><input type="checkbox" name="opcoes" id="idopcoes" value="1">Internet </td>
+                    <td><input type="checkbox" name="opcoes" id="idopcoes" value="2">Programação </td>
+                    <td><input type="checkbox" name="opcoes" id="idopcoes" value="1">Frontend </td>
+               </tr>
+               <tr>
+                    <td><input type="submit" name ="enviar"></td>
+                    <td><input type="reset" name="apagar"></td>
+
+               </tr>
+    </table>
+    
+  
+</body>
+
+</html>
