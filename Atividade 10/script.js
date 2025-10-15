@@ -1,6 +1,6 @@
 function adicionaritem() {
   
-    var input = document.getElementById("item");
+    var  input = document.getElementById("item");
     var texto = input.value.trim();
 
     if (texto !== "") {
@@ -26,5 +26,5 @@ function removeritem() {
 
 
 var botao = document.getElementById("botao");
-botao.onclick = adicionaritem;,
+botao.onclick = adicionaritem;
 botao.ondblclick = removeritem;
