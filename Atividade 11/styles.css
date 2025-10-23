@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    
+}
+body {
+    background-color: darkgrey;
+}
+header {
+background-color: rgb(0, 0, 0);
+display: flex;
+justify-content: space-between;
+
+
+}
+li{
+    margin: 2px;
+    display: inline;
+}
+ul {
+    color: aliceblue;
+    list-style-type: none;
+}
+nav {
+
+    margin-top:50px;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-top: 0;
+    padding: 0;
+   width: 120px;
+}
+a:link,
+a:visited {
+    text-decoration: none;  
+    color: #ffffff;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+a:hover {
+    color: #000000;
+}
+
+
+.banner {
+    background-image: url(Black\ Minimalist\ Linktree\ Background.png);
+    padding: 70px;
+    text-align: center;
+    color: aliceblue;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px ;
+}
+.conteiner {
+    display: flex;
+    flex-direction: row;
+
+}
+
+ .alee  {
+   margin-top: 70px;
+    display: flex;
+ }
+.aleepara {
+    font-size: 20px;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 80px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.aleeimg {
+   margin-left: 300px;
+    border-radius: 20px;
+   
+}
+.Matue {
+ margin-top: 30px;
+    display: flex;
+}
+.matueimg {
+    
+ margin-right: 300px;
+    border-radius: 20px;
+    margin-left: 50px;
+        
+}
+
+.matuepara {
+    font-size: 20px;
+    width: 400px;
+    margin-top: 50px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.show {
+    display: flex;
+    margin-top: 50px;
+}
+.balao01 {
+    margin-left: 100px;
+    width: 120px;
+        height: 95px;
+        background-color: white;
+        border-radius: 8px; /* Bordas arredondadas */
+            padding: 20px;
+            box-shadow: 5px 5px 0px #888;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+}
+
+.balao02 {
+    margin-left: 205px;
+    width: 115px;
+        height: 95px;
+        background-color: white;
+        border-radius: 8px; /* Bordas arredondadas */
+            padding: 20px;
+            box-shadow: 5px 5px 0px #888;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.balao03 {
+    margin-left: 220px;
+    width: 120px;
+        height: 95px;
+        background-color: white;
+        border-radius: 8px; /* Bordas arredondadas */
+            padding: 20px;
+            box-shadow: 5px 5px 0px #888;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+}
+
+.festival {
+    width: 60px;
+    border-radius: 50px;
+}
+
+.lolapaloza {
+    width: 70px;
+    border-radius: 200px
+    
+}
+
+.rock {
+   width: 60px;
+    border-radius: 50px; 
+}
+.pl {
+    margin-top: 20px;
+}
+
+.pr {
+    margin-top: 20px;
+}
+
+.pf {
+    margin-top: 20px;
+}

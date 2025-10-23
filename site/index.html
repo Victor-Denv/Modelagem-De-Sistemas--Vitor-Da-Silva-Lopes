@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Exemplo DOM - Form</h1>
+</header>
+<section>
+<div class="form">
+    <table>
+    <form name="Cadastro">
+        <tr>
+            <td><label for="login"> Login : </label></td>
+            <td> <input  type="text" id="login"></td>
+        </tr>
+
+        <tr>
+        <td><label for="senha">Senha: </label></td>
+        <td><input type="password" name="senha" id="senha"></td>
+        </tr> 
+        
+        <br>
+        <tr>
+        <td><label for="confirmarsenha">Confirmar: </label></td>
+        <td><input type="password" name="confsenha" id="confirsenha"></td>
+        </tr> 
+        <br>
+        <tr>
+            <td><input type="submit" value="enviar" id="enviar" onclick="enviar()"> 
+        </tr>
+          
+                    
+    </form>
+</table>
+</div>
+</section>
+<script src="script.js"></script>
+</body>
+
+</html>

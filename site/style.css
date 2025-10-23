@@ -1,0 +1,27 @@
+body {
+    background: aqua;
+    font: normal 15pt arial;
+}
+
+header{
+    text-align: center;
+    font: normal 25pt arial;
+    padding: 15px;
+
+}
+
+section {
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+
+input
+{
+    width: 100px;
+}
+
