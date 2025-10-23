@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8e8e8;
+    margin: 0;
+}
+
+.urna {
+    background-color: #dbdfe5;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    display: flex;
+    width: 900px;
+    height: 500px;
+    border: 2px solid #555;
+}
+
+
+.tela {
+    width: 65%;
+    padding: 50px;
+    border-right: 2px solid #555;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+.display {
+    border: 2px solid #888;
+    background-color: #fff;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.display-inicial h1 {
+    margin: 0;
+}
+
+.candidato-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.candidato-foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+.candidato-dados {
+    text-align: left;
+}
+
+.mensagem-fim {
+    font-size: 5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.info-rodape {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+
+.info-rodape p {
+    margin: 5px 0;
+}
+
+
+.teclado {
+    width: 40%;
+    padding: 100px;
+    background-color: #333;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-content: center;
+}
+
+.tecla {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #222;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #1c1c1c;
+    color: white;
+    box-shadow: 0 3px #000;
+    transition: all 0.1s ease-in-out;
+}
+
+.tecla:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px #000;
+}
+
+.tecla-funcao {
+    color: #333;
+}
+
+.btn-branco { background-color: #f5f5f5; grid-column: 1 / 2; }
+.btn-limpar { background-color: #f4a261; grid-column: 2 / 3; }
+.btn-confirmar { background-color: #5cb85c; grid-column: 3 / 4; height: 60px; align-self: center;}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.modal-conteudo {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.fechar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+div#Calculadora {
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #5c1d1d;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+div#botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+div#botoes button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+div#botoes button:hover {
+    background-color: #d0d0d0;
+}
+div#botoes button:active {
+    background-color: #c0c0c0;
+}
+div#botoes button.operator {
+    background-color: #ff9500;
+    color: #fff;
+}
+div#botoes button.operator:hover {
+    background-color: #e08900;
+}
+div#botoes button.operator:active {
+    background-color: #c07000;
+}
+div#botoes button.equal {
+    background-color: #34c759;
+    color: #fff;
+}
+div#botoes button.equal:hover {
+    background-color: #28a745;
+}
+div#botoes button.equal:active {
+    background-color: #1e7e34;
+}
+div#botoes button.clear {
+    background-color: #ff3b30;
+    color: #fff;
+}

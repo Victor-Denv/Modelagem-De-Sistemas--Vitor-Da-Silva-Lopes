@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="urna">
+        <div class="tela">
+            <div class="display" id="display">
+                <div class="display-inicial">
+                    <h1>Votação Iniciada</h1>
+                    <p>Digite o número do seu candidato.</p>
+                </div>
+            </div>
+            <div class="info-rodape">
+                <p>Pressione:</p>
+                <p><strong>BRANCO</strong> para votar em BRANCO</p>
+                <p><strong>LIMPAR</strong> para REINICIAR seu voto</p>
+                <p><strong>CONFIRMAR</strong> para CONFIRMAR seu voto</p>
+            </div>
+        </div>
+        <div class="teclado">
+            <div class="tecla" onclick="digitar('1')">1</div>
+            <div class="tecla" onclick="digitar('2')">2</div>
+            <div class="tecla" onclick="digitar('3')">3</div>
+            <div class="tecla" onclick="digitar('4')">4</div>
+            <div class="tecla" onclick="digitar('5')">5</div>
+            <div class="tecla" onclick="digitar('6')">6</div>
+            <div class="tecla" onclick="digitar('7')">7</div>
+            <div class="tecla" onclick="digitar('8')">8</div>
+            <div class="tecla" onclick="digitar('9')">9</div>
+            <div class="tecla" onclick="digitar('0')" style="grid-column: 2;">0</div>
+
+            <div class="tecla tecla-funcao btn-branco" onclick="votoBranco()">Branco</div>
+            <div class="tecla tecla-funcao btn-limpar" onclick="limpar()">Limpar</div>
+            <div class="tecla tecla-funcao btn-confirmar" onclick="confirmarVoto()">Confirmar</div>
+        </div>
+    </div>
+
+    <div id="modal-resultado" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar" onclick="fecharModal()">&times;</span>
+            <h2>Resultado da Votação</h2>
+            <pre id="resultado-final"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
