@@ -1,0 +1,15 @@
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\bin\Debug\net8.0\Atividade Em C Sharp.exe
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\bin\Debug\net8.0\Atividade Em C Sharp.deps.json
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\bin\Debug\net8.0\Atividade Em C Sharp.runtimeconfig.json
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\bin\Debug\net8.0\Atividade Em C Sharp.dll
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\bin\Debug\net8.0\Atividade Em C Sharp.pdb
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\obj\Debug\net8.0\Atividade Em C Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\obj\Debug\net8.0\Atividade Em C Sharp.AssemblyInfoInputs.cache
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\obj\Debug\net8.0\Atividade Em C Sharp.AssemblyInfo.cs
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\obj\Debug\net8.0\Atividade Em C Sharp.csproj.CoreCompileInputs.cache
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\obj\Debug\net8.0\Atividade Em C Sharp.sourcelink.json
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\obj\Debug\net8.0\Atividade Em C Sharp.dll
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\obj\Debug\net8.0\refint\Atividade Em C Sharp.dll
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\obj\Debug\net8.0\Atividade Em C Sharp.pdb
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\obj\Debug\net8.0\Atividade Em C Sharp.genruntimeconfig.cache
+C:\Users\Aluno SENAI.C308-LAB3-001\Downloads\Modelagem De Sistemas -Vitor Da Silva Lopes\Atividade Em C Sharp\obj\Debug\net8.0\ref\Atividade Em C Sharp.dll
